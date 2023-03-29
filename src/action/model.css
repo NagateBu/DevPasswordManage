@@ -1,0 +1,63 @@
+input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+#DPM_Action-Model {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .8);
+    align-items: center;
+    justify-content: center;
+}
+
+.model-box {
+    width: 80%;
+    border: 1px solid #cccccc;
+    background: #333333;
+    padding: 4px;
+}
+
+.model-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.model-title {
+    color: #ffffff;
+}
+
+.model-close {
+    font-size: 1.1em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.model-content {
+    padding: 10px 5px;
+}
+
+.model-tools {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.model-tools-submit {
+    width: 45px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    color: #ffffff;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='cn-zh'>
+<head>
+  <meta charset='UTF-8' />
+  <title>Popup</title>
+  <link type='text/css' rel='stylesheet' href='index.css' />
+  <link type='text/css' rel='stylesheet' href='model.css' />
+</head>
+<body>
+<!-- 主体 -->
+<div id='DPM_Action'>
+  <!-- 标题 -->
+  <div class='DPM_Header'>
+    Dev Password Manage
+  </div>
+  <!-- tab -->
+  <div id='DPM_Tab'>
+    <div class='DPM_Tab-item' data-key='1'>
+      项目
+    </div>
+    <div class='DPM_Tab-item' data-key='2'>
+      环境
+    </div>
+    <div id='DPM_Tab-action'></div>
+  </div>
+  <!-- 内容 -->
+  <div class='DPM_Content'>
+    <div id='DPM_Boat'>
+      <!--  项目  -->
+      <div id='DPM_Content-step1'></div>
+      <!--  环境  -->
+      <div id='DPM_Content-step2'></div>
+    </div>
+  </div>
+  <!-- 工具栏 -->
+  <div class='DPM_Tools'>
+    <div class='DPM_Tools-item' id='DPM_Tools-add'>+</div>
+    <div class='DPM_Tools-item' id='DPM_Tools-remove'>-</div>
+    <svg
+      id='DPM_Tools-edit'
+      class='DPM_Tools-item'
+      t='1679761762481'
+      viewBox='0 0 1024 1024'
+      xmlns='http://www.w3.org/2000/svg'
+      p-id='1462'
+    >
+      <path
+        d='M603.712 195.2a32 32 0 0 1 11.712 43.712l-300.032 519.68a64 64 0 0 1-9.472 12.544l-40.32 41.728a16.512 16.512 0 0 1-27.712-16l16-55.808a64 64 0 0 1 6.08-14.4L560 206.912a32 32 0 0 1 43.712-11.712z'
+        fill='#ffffff'
+        p-id='1463'
+      ></path>
+      <path
+        d='M736 768a32 32 0 1 1 0 64h-256a32 32 0 1 1 0-64h256z m64-192a32 32 0 1 1 0 64h-192a32 32 0 0 1 0-64h192z'
+        fill='#ffffff'
+        p-id='1464'
+      ></path>
+    </svg>
+  </div>
+</div>
+<!-- 弹窗 -->
+<div id='DPM_Action-Model'>
+  <div class='model-box'>
+    <div class='model-header'>
+      <div class='model-title' id='DPM_Model-title'></div>
+      <div class='model-close' id='PDM_Model-close'>X</div>
+    </div>
+    <div class='model-content' id='DPM_Model-content'></div>
+    <div class='model-tools'>
+      <div class='model-tools-submit' id='DPM_Model-submit'>确认</div>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='globeData.js'></script>
+<script type='text/javascript' src='index.js'></script>
+<script type='text/javascript' src='app.js'></script>
+<script type='text/javascript' src='model.js'></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#DPM_Action {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    padding: 10px 8px;
+    background: #000000;
+    z-index: 999;
+}
+
+.DPM_Header {
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #cccccc;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#DPM_Tab {
+    position: relative;
+    width: 70px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.DPM_Tab-item {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+    color: #ffffff;
+}
+
+#DPM_Tab-action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #333333;
+    border-radius: 4px;
+    transition: all .5s;
+    z-index: 1;
+}
+
+.DPM_Content {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    border: 1px solid #cccccc;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+#DPM_Boat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 576px;
+    height: 350px;
+    display: flex;
+    transition: all .5s;
+}
+
+#DPM_Content-step1 {
+    width: 284px;
+    height: 100%;
+    margin-right: 8px;
+    flex-shrink: 0;
+    overflow-x: auto;
+}
+
+#DPM_Content-step2 {
+    width: 284px;
+    height: 100%;
+    flex-shrink: 0;
+    overflow-x: auto;
+}
+
+.step-item {
+    width: 100%;
+    height: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 22px;
+    text-indent: 1em;
+    color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.action {
+    background: rgba(204, 204, 204, .2);
+}
+
+
+.DPM_Tools {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #cccccc;
+    border-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.DPM_Tools-item {
+    width: 20px;
+    height: 14px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    font-size: 12px;
+    line-height: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Dev Password Manage",
+  "version": "1.2.0",
+  "description": "用于统一账号密码管理工具",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp"
+  },
+  "author": "NagateBu",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "del": "6",
+    "eslint": "^8.36.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gulp": "^4.0.2",
+    "prettier": "^2.8.5",
+    "rollup": "^3.20.0",
+    "through2": "^4.0.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  }
+}

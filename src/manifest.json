@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "icons": {
+    "16": "Password.png",
+    "32": "Password.png",
+    "48": "Password.png",
+    "128": "Password.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "activeTab"
+  ]
+}
